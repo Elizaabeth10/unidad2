@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--Información técnica para el navegador-->
+        <title>
+            Repasando HTML
+        </title> 
+    <meta http-equiv="x-UA-Compatible"  content="ie=edge"> 
+    <!--Es para que permita la compatibilidad con el navegador, en este caso, microsoft edge-->
+    <meta charset="UTF-8"> <!--Para colocar los caracteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Importamos letras de google-->
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'> 
+   </head>
+   <body><!--Contenido de nuestra página web-->
+    <h1 class="titulo">Repasando...</h1>
+    <form> <!--Creamos un formulario-->
+        <label class="form-items" for="nombre">Nombre:</label>
+        <input class="form-items" type="text" id="nombre" name="nombre" placeholder="Ingrese tu nombre">
+        <br> <!--salto de línea-->
+        <label class="form-items" for="correo">Correo:</label>
+        <input class="form-items" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+        <br>
+        <br>
+        <label class="form-items" for="clima"></label>
+        <input class="form-items" type="text" name="clima" id="clima" placeholder="Ingrese el clima actual">
+        <button type="button" class="form-items" onclick="climarecomend()">Recomendación</button>
+        <br></br>
+        <button class="form-items" type="text"  name="enviar"></button>
+    </form>
+      <script src="assets/css/js/script.js"></script>
+      <!--está algo mal las carpetas, aún así, funcionan-->
+      </body>
+</html>

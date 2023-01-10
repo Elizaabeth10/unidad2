@@ -1,0 +1,16 @@
+.titulo{
+    font-family: 'Annie Use Your Telescope';font-size: 40px;
+    text-align: center;
+}
+
+.form-items{
+    font-family: 'Cedarville Cursive';font-size: 20px;
+}
+ form{
+   background-color: rgb(192, 53, 53);
+   padding: 20px;
+   width: 600px;
+height: 400px ;
+margin: 50px;
+text-align: center;
+ }
